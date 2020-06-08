@@ -1,0 +1,33 @@
+header{
+    color:black;
+}
+header img{
+    padding-bottom: 0;
+}
+header h1{
+    background: white;
+    text-align: center;
+}
+header h2{
+    background: white;
+    text-align: center;
+}
+header ul li{
+    color: white;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+h1{
+    background: white;
+}
+body{
+    background: lightpink;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}

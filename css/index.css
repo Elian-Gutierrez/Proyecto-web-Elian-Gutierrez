@@ -1,0 +1,54 @@
+header{
+    color: white;
+}
+header img{
+    padding-bottom: 0;
+}
+header h1{
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+body{
+    background: lightcoral;
+    color: white;
+}
+h1{
+    text-align: center;
+    background: white;
+    color: black;
+}
+h2{
+    background: white;
+    color:  black;
+}
+table{
+    color: white;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    padding: 0.5em;
+}
+tbody td{
+    border: 3px dashed black;
+    background: white;
+    color: black;
+}
+img{
+    margin: auto;
+    display: block;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
