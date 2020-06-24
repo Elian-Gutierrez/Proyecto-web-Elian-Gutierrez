@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Movie Central</title>
+</head>
+<body>
+    <div class="container">
+    <!--name-->
+    <div class="row" style="background-color: darkblue; color: white;">
+        <h1>Movie Central</h1>
+    </div>
+    <!--portada-->
+    <div class="row" style="padding-bottom: 0px;">
+        <img src="./img/portada.jpg" alt="Cinema" class="img-fluid">
+    </div>
+    <!--movie-->
+    <div class="row" style="background-color: darkblue; color: white;">
+        <h3>Peliculas en Cartelera</h3>
+    </div>
+    <!--cartelera-->
+    <div class="row" style="height: 420px;">
+        <div class="col">
+            <img src="./img/1917.jpg" alt="Historia" width="175" height="240" class="img-fluid">
+            <p style="text-align: center;">1917 <br>
+                Sala 1           
+            </p>
+        </div>
+        <div class="col">
+            <img src="./img/ana.jpg" alt="terror" width="175" height="240" class="img-fluid">
+            <p style="text-align: center;">Annabelle<br>
+                Sala 2           
+            </p>
+        </div>
+        <div class="col">
+            <img src="./img/banker.jpg" alt="Historia" width="175" height="240" class="img-fluid">
+            <p style="text-align: center;">The Banker<br>
+                Sala 3          
+            </p>
+        </div>
+        <div class="col">
+            <img src="./img/black.jpg" alt="Heroes" width="175" height="240" class="img-fluid">
+            <p style="text-align: center;">Black Phanter<br>
+                Sala 4             
+            </p>
+        </div>
+        <div class="col">
+            <img src="./img/boys.jpg" alt="Comedia" width="175" height="240" class="img-fluid">
+            <p style="text-align: center;">Bad Boys<br>
+                Sala 5            
+            </p>
+        </div>
+    </div>
+    <!--new-->
+    <div class="row">
+        <div class="col-8">
+            <div class="row" style="height: 1px; background-color: darkblue; color: white;border-right-style: dashed;">
+                <p>Proximos Estrenos</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/joker.jpg" alt="Comedia" width="175" height="240" class="img-fluid">
+                    <p style="text-align: center;">Joker<br>
+                        Julio            
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="./img/justicia.jpg" alt="Historia" width="175" height="240" class="img-fluid">
+                    <p style="text-align: center;">Just Mercy<br>
+                        Julio            
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="./img/saw.jpg" alt="terror" width="175" height="240" class="img-fluid">
+                    <p style="text-align: center;">SAW<br>
+                        Julio            
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" style="height: 1px; background-color: darkblue; color: white;">
+                <p>Mejor Valorada</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <center>
+                    <img src="./img/venom.jpg" alt="Heroes" width="175" height="240" class="img-fluid">
+                    </center>
+                <p style="text-align: center;">Venom<br>
+                    Julio            
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--info-->
+    <div class="row">
+        <div class="col">
+            <div class="row" style="background-color: darkblue; color: white; border-right-style: dashed;">
+                <p>Servicios</p>
+            </div>
+            <div class="row" style="height: 500px; background-color: darkgray; color: white;border-right-style: dashed;">
+                <p>Nuestro cine te ofrece los siguientes servicios:</p>
+                <p><b>Sala de cine:</b> Las mejores salas de cine en 3D y 4D</p>
+                <p><b>Juegos electronicos:</b> variedad de juegos para niños y adultos</p>
+                <p><b>Restaurantes:</b> Variedad de restaurantes para que disfrutes de tu comida favorita</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" style="background-color: darkblue; color: white;">
+                <p style="text-align: center;">Registrate</p>
+            </div>
+            <div class="row" style="height: 500px; background-color: darkgray; color: white;">
+                <form>
+                      <legend>Datos Personales</legend>
+                      <label for="exampleInputEmail1">Correo Electronico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+                      <label for="exampleInputPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                      <label>Genero de pelicula?</label><br>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                       terror
+                      </label><br>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                       Comedia
+                      </label><br>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                       Accion
+                      </label><br>
+                      <label>Recivir notifiacion?</label><br>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                       Si
+                      </label><br>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                       No
+                      </label><br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
